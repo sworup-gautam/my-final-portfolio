@@ -431,7 +431,7 @@ h6 {
 
   100% {
     transform: rotate(360deg);
-  }
+  }                       
 }
 
 /*--------------------------------------------------------------
@@ -448,7 +448,7 @@ h6 {
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 1s;
 }
 
 .scroll-top i {
@@ -458,7 +458,8 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  /* background-color: color-mix(in srgb, var(--accent-color), transparent 20%); */
+  background-color: black;
   color: var(--contrast-color);
 }
 
