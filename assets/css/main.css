@@ -174,10 +174,10 @@ h6 {
 }
 
 .header .profile-img img {
-  margin: 15px auto;
+  margin: 25px auto;
   display: block;
-  width: 120px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  width: 135px;
+  border: 7px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .header .logo {
@@ -1155,7 +1155,8 @@ section,
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  /* background: color-mix(in srgb, var(--accent-color), transparent 25%); */
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
