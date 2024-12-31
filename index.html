@@ -1392,22 +1392,24 @@
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
+                    <label for="name-field" class="pb-2">Name*</label>
                     <input
                       type="text"
                       name="name"
                       id="name-field"
+                      placeholder="Your Name"
                       class="form-control"
                       required=""
                     />
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
+                    <label for="email-field" class="pb-2">Email*</label>
                     <input
                       type="email"
                       class="form-control"
                       name="email"
+                      placeholder="Your Email"
                       id="email-field"
                       required=""
                     />
@@ -1419,13 +1421,14 @@
                       type="text"
                       class="form-control"
                       name="subject"
+                      placeholder="Subject"
                       id="subject-field"
-                      required=""
+                      
                     />
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
+                    <label for="message-field" class="pb-2">Message*</label>
                     <textarea
                       class="form-control"
                       name="message"
@@ -1436,7 +1439,7 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
+                    <div class="loading">Loading...</div>
                     <div class="error-message"></div>
                     <div class="sent-message">
                       Your message has been sent. Thank you!
