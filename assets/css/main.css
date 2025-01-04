@@ -60,13 +60,13 @@
 /* CSS for the glowing dot */
 .custom-cursor {
   position: fixed;
-  width: 15px; /* Size of the glowing dot */
-  height: 15px;
-  background: rgba(255, 0, 0, 0.8); /* Bright red color with some transparency */
+  width: 10px; /* Size of the glowing dot */
+  height: 10px;
+  background: rgba(64, 255, 0, 0.99); /* Bright red color with some transparency */
   border-radius: 50%; /* Makes it a circle */
   pointer-events: none; /* Ensures it doesn't interfere with clicks */
   z-index: 10000; /* Keeps it on top of other elements */
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.6), 0 0 20px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgb(81, 255, 0), 0 0 20px rgba(0, 255, 51, 0.911);
   transform: translate(-50%, -50%); /* Centers the dot on the cursor */
   transition: transform 0.1s ease-out; /* Smoothens its movement */
 }
@@ -1104,7 +1104,8 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: black;
+  transition: all 1s;
   color: var(--contrast-color);
 }
 
