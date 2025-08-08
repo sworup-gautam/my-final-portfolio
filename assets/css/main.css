@@ -1067,7 +1067,7 @@ padding:28px;
 
 .contact .info-wrap {
   background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
   padding: 30px;
 }
 
@@ -1118,7 +1118,7 @@ padding:28px;
   background-color: var(--surface-color);
   height: 100%;
   padding: 30px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 575px) {
@@ -1155,7 +1155,7 @@ padding:28px;
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
-  box-shadow: 0.2px 2px 5px 0px gray;
+  box-shadow: 0px 0px 4px 0px gray;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
