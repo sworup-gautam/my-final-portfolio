@@ -166,7 +166,7 @@ h6 {
   left: 0;
   bottom: 0;
   padding: 0 15px;
-  width: 200px;
+  width: 300px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
@@ -174,10 +174,10 @@ h6 {
 }
 
 .header .profile-img img {
-  margin: 32px 0;
+  margin: 48px 0;
   display: block;
-  width: 120px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  width: 90px;
+  border: 6px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .header .logo {
