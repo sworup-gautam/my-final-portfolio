@@ -166,7 +166,7 @@ h6 {
   left: 0;
   bottom: 0;
   padding: 0 15px;
-  width: 300px;
+  width: 250px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
@@ -205,7 +205,7 @@ h6 {
   font-size: 16px;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   color: var(--default-color);
   margin: 0 2px;
