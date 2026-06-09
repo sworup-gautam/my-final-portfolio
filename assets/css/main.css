@@ -174,10 +174,10 @@ h6 {
 }
 
 .header .profile-img img {
-  margin: 24px 0;
+  margin: 32px 0;
   display: block;
-  width: 90px;
-  border: 7px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  width: 120px;
+  border: 8px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
 .header .logo {
